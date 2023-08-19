@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Itim&display=swap');
+
+body{
+    background-color: gold;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Itim', cursive;
+    font-size: 25px;
+}
+.container{
+    align-items: center;
+    text-align: center;
+}
+table{
+    width: 80%;
+    margin: 40px auto;
+    background:cornflowerblue;
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid rgb(254, 220, 0);
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: gold;
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #4BB543;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+button{
+    background-color: #4BB543;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    color:whitesmoke ;
+}
+#delete{
+    background-color: rgb(200, 94, 94);
+}
+
